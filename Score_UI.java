@@ -46,7 +46,7 @@ public class Score_UI extends JFrame implements ActionListener {
             JTextArea textArea = new JTextArea();
             textArea.setEditable(false);
 
-            String fileName = "Assignment\\result.txt";
+            String fileName = "result.txt";
             File file = new File(fileName);
 
             try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
