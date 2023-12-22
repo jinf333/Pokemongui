@@ -1,0 +1,5 @@
+Username: aa, Score: 28.0
+Username: jin, Score: 19.0
+Username: jonxx, Score: 18.0
+Username: jin, Score: 11.5
+Username: ss, Score: 9.0
