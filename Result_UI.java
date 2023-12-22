@@ -53,7 +53,7 @@ public class Result_UI extends JFrame {
         writeToTextFile(username, score);
     }
     private void writeToTextFile(String username, double score) {
-        String filePath = "Assignment\\result.txt";
+        String filePath = "result.txt";
     
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             writer.write("Username: " + username + ", Score: " + score + "\n");
